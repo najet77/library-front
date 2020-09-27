@@ -17,17 +17,17 @@ export default class Books extends React.Component {
           </Row>
         </Card.Header>
         <Card.Body>
-          <Table hover bordered>
+          <Table striped hover bordered>
             <thead>
               <tr>
                 <th>Title</th>
                 <th>Author</th>
                 <th>Pages</th>
-                <th>Actions</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
-              {this.props.data.map((book, i) => (
+              {this.props.najet.map((book, i) => (
                 <tr key={i}>
                   <td>{book.name}</td>
                   <td>{book.author}</td>

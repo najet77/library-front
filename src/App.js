@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <StudentsPage data={eleves} />
+        <BooksPage najet={livres} />
       </Container>
     </div>
   );

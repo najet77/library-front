@@ -17,14 +17,14 @@ export default class Students extends React.Component {
           </Row>
         </Card.Header>
         <Card.Body>
-          <Table hover bordered>
+          <Table striped hover bordered>
             <thead>
               <tr>
                 <th>Name</th>
                 <th>Classe</th>
                 <th>Age</th>
                 <th>Tel</th>
-                <th>Actions</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
